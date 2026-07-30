@@ -4687,3 +4687,16 @@ input, select, textarea {
 		}
 
 	}
+
+	/* Force uniform borders on all portfolio project articles */
+.posts > article {
+    border: 1px solid rgba(210, 215, 217, 0.75) !important; /* Faint grey border */
+    padding: 2.5rem !important; /* Ensures the text doesn't touch the new border */
+    margin-bottom: 2rem; /* Adds space between stacked cards on mobile */
+}
+
+/* Optional: If you want a slight hover effect to make them pop */
+.posts > article:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    transition: box-shadow 0.3s ease;
+}
